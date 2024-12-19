@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.5px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, purple, rgba(255, 255, 0, 0.5)),
+    url("images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+p {
+  color: #6c6f74;
+}
+.search {
+  margin: 10px 0px 0px 30px;
+  padding: 10px 210px 10px 10px;
+  border: 3px solid yellow;
+  background-color: purple;
+  color: white;
+  border-radius: 2px;
+}
+.navButton {
+  margin-right: 20px;
+}
+.b {
+  width: 185px;
+  height: 35px;
+}
+.right {
+  background: #6c6f74;
+  border: 1px solid white;
+  color: white;
+}
+.left {
+  background: white;
+  border: 1px solid white;
+  color: #6c6f74;
+}
+.body {
+  position: relative;
+}
+.bodyContainer {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.cartOne {
+  border: 1px solid white;
+  width: 20%;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: auto;
+  height: 80%;
+  background: white;
+  border-radius: 5px;
+  padding: 40px 0px 40px 10px;
+}
+.one {
+  width: 100%;
+}
+.two {
+  width: 100%;
+}
+.rowOne {
+  padding: 30px 0 20px 10px;
+  border-bottom: 1px solid #858689;
+  border-right: 1px solid #6c6f74;
+  grid-column: span 2;
+}
+.cost {
+  display: flex;
+  align-items: center;
+  /* padding: 5px 0px; */
+}
+
+
+.item1 {
+  width: 100%;
+  grid-column: span 2;
+  grid-column: span 2;
+  border-top: 1px solid #858689;
+  border-bottom: 1px solid #858689;
+  padding: 10px 0;
+}
+.item2 {
+  width: 100%;
+  border-top: 1px solid #858689;
+  border-bottom: 1px solid #858689;
+  border-right: 1px solid #858689;
+  padding: 20px 0px 0px 10px;
+  grid-column: span 2;
+}
+.item {
+  border-top: 1px solid #858689;
+  border-bottom: 1px solid #858689;
+  padding: 10px 0px 0px 10px;
+  grid-column: span 4;
+}
+/* .cartTwo {
+  border: 1px solid white;
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: -40px;
+  left: 170px;
+} */
+
+.cartTwo {
+  border: 1px solid white;
+  width: 30%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-row: auto;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: -40px;
+  left: 170px;
+}
+.bookCourse {
+  grid-column: span 2;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(165, 49, 49);
+  border: 0;
+  outline: 0;
+  color: white;
+  border-radius: 3px;
+  margin: 0px 80px 0px 10px;
+
+}
+.item3 {
+  width: 100%;
+  padding: 10px 0;
+  grid-column: span 2;
+  margin: 0px 20px 0px 10px;
+}

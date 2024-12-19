@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background: white;
+  border: 1px solid lightgrey;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav img {
+  width: 5%;
+  height: 95%;
+}
+.logoTitle {
+  padding-top: 3vh;
+  margin-right: 100vh;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+list-style: none;
+  padding-top: 5vh;
+  /* margin-left: 150vh; */
+  /* justify-content: space-between; */
+}
+.nav li {
+  margin-right: 40px;
+}
+.container {
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+.body {
+  display: flex;
+}
+.one {
+  width: 60%;
+  height: 100vh;
+  background: #0976a7;
+  color: white;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: lighter;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 6vh;
+  padding-top: 6vh;
+  /* justify-content: center; */
+  align-items: center;
+}
+.startButton {
+  height: 70%;
+  padding: 0 30px;
+  margin: 10px 0;
+  margin-bottom: 10px;
+  background: #0976a7;
+  border: none;
+  color: white;
+}
+
+.createOne {
+  color: #e90606;
+}
+.google {
+  background-color: white;
+  border: 1px solid grey;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  /* justify-content: center; */
+}
+.google img {
+  width: 30%;
+  height: 20px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.facebook {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 40px;
+}
+.facebook img {
+  width: 30%;
+  height: 20px;
+}
+
+.Apple {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 40px;
+  margin-right: 5px;
+}
+.or {
+    color: grey;
+    margin-top: 15px;
+}
+.Apple img {
+  width: 30%;
+  height: 20px;
+}
+.textField {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 5vh;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: #eff1f3;
+}
+.Forgot {
+  margin: 10px 0;
+  margin-left: 160px;
+  color: #e90606;
+}
+.Login {
+  width: 100%;
+  height: 5vh;
+  background: #e90606;
+  color: white;
+  font-size: medium;
+  font-weight: 800;
+}
+.para {
+  padding-left: 40px;
+}

@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* body {
+  background-image: url("image/toushifjpg.jpg");
+  background-repeat: repeat-x;
+  padding: 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.form {
+  border: 1px solid white;
+  padding: 60px 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.Name {
+  color: azure;
+  border: 1px solid gray;
+}
+.First {
+  padding: 5px 60px 5px 0px;
+  margin: 5px 60px 5px 0px;
+}
+.Last {
+  padding: 5px 60px 5px 0px;
+  margin: 5px 60px 5px 0px;
+}
+p {
+  margin: 20px 0px;
+  color: gray;
+}
+.radioContainer {
+  display: flex;
+}
+.radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sq-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.sq-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.sq-radio:hover input ~ .checkmark {
+  background-color: #241d25;
+}
+
+/* When the radio button is checked, add a blue background 
+  .sq-radio input:checked ~ .checkmark {
+    background-color: #241d25;
+  }
+  */
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.sq-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.sq-radio .checkmark:after {
+  top: 7px;
+  left: 7px;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  background-color: #241d25;
+}
+.pic {
+    width: 350px;
+    height: 232px;
+    border: 3px solid black;
+    outline: none;
+}
+
+.pic img {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    object-fit: contain;
+}
